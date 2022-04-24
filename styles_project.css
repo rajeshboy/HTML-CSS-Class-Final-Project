@@ -1,0 +1,465 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* 
+	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	
+body{ 
+		font-size: 100%;
+		font-family: Arial, Verdana, Sans-serif;
+		background-color: rgb(223, 190, 159);
+		text-align: center;
+		margin: 2% 10% 5% 10%;			
+	}
+	
+.wrapper	{
+			
+				border: 2px solid #000000;
+				background-color: #ffffff;
+				border-radius: 80px;
+			}
+		
+#introduction  	{
+					
+					padding: 5% 5% 5% 5%;				
+					-moz-box-shadow: 6px 6px 6px #777777;  
+					-webkit-box-shadow: 6px 6px 6px #777777;  
+					box-shadow: 6px 6px 6px #777777;					 
+					font-size:14pt;
+					-moz-border-radius: 80px;
+					-webkit-border-radius: 80px;
+					border-radius: 100px;
+					border: 2px solid #0088dd;
+					color:black;					
+					line-height: 2.7em;
+					font-style: normal;
+					margin: 5% 10% 5% 10%;
+					font-family: arial, sans-serif;
+					text-align: left;
+					position: relative;
+					background-image: url("images/download(3).jpeg");
+					background-repeat: no-repeat;
+					background-position: 20% 20%;
+					background: linear-gradient(to left, #66ffcc 0%, #00ffff 100%);
+				}
+				
+#springSummerAndFallFarming	{
+								padding: 5% 5% 5% 5%;
+								position: static;
+								-moz-box-shadow: 8px 8px 8px #777777;  
+								-webkit-box-shadow: 8px 8px 8px #777777;  
+								box-shadow: 7px 7px 7px #777777;					 
+								font-size:14pt;
+								-moz-border-radius: 70px;
+								-webkit-border-radius: 70px;
+								border-radius: 110px;
+								border: 2px solid #4d0099;
+								color:#08088A;
+								background: linear-gradient(to right, #cc99ff 0%, #66ffff 100%);
+								line-height: 2.7em;
+								font-style: normal;
+								margin: 5% 10% 5% 10%;
+								font-family: sans-serif, Verdana;
+								text-align: left;
+							}
+				
+#farmingtoolsEquipmentsTermsAndLinks 	{
+											padding: 5% 5% 5% 5%;
+											margin: 5% 10% 5% 10%;
+											-moz-box-shadow: 5px 5px 5px #777777; 
+											-webkit-box-shadow: 5px 5px 5px #777777;  
+											box-shadow: 5px 5px 5px #777777;
+											font-size:14pt; 
+											border: 3px solid #000000;
+											color: #FF0000;
+											border-radius: 1em 4em 1em 4em /  2em 1em 2em 1em;
+											background: linear-gradient(to right, #ccff66 0%, #66ff99 100%);
+											line-height: 1.6em;
+											font-style: italic;
+											font-family: "Times New Roman", Times, serif;
+											text-align: left;										
+										}
+				
+#ordersAndSupplySignUp 	{
+							padding: 5% 5% 5% 5%;
+							font-size:14pt;
+							margin: 5% 10% 5% 10%;
+							-moz-box-shadow: 0 0 10px #777777;  
+							-webkit-box-shadow: 0 0 10px #777777;  
+							box-shadow: 0 0 10px #777777;
+							color:#190707;  
+							border: 2px solid #0088dd;						
+							background-color:rgba(255,255,102,0.5);
+							line-height: 1.9em;
+							font-style: oblique;
+							font-family: Courier New, Courier, Lucida Console; 
+							text-align: left;
+						}
+
+#farmingVideoBlockquoteAndMethod	{
+										padding: 5% 5% 5% 5%;
+										margin: 5% 10% 5% 10%;
+										-moz-box-shadow: 4px 5px 4px #777777; 
+										-webkit-box-shadow: 4px 5px 4px #777777;  
+										box-shadow: 4px 3px 4px #777777;
+										font-size:14pt; 
+										border: 3px solid #800080;
+										color:#3B0B17;
+										border-radius: 2em 4em 2em 4em /  3em 1em 3em 1em;
+										background: linear-gradient(to bottom left, #33ccff -1%, #ffcccc 100%);
+										line-height: 1.7em;
+										font-style: italic;
+										font-family: Times, "Times New Roman", serif;
+										text-align: left;
+									}
+						
+#farmReportAndContactAddress 	{	
+									padding: 5% 5% 5% 5%;
+									font-size:14pt;
+									-moz-box-shadow: inset 5px 5px 5px 5px #777777;  
+									-webkit-box-shadow: inset 5px 5px 5px 5px #777777;  
+									box-shadow: inset 5px 5px 5px 5px #777777;
+									margin: 5% 10% 5% 10%;
+									border: 2px solid #0088dd;
+									color:black;
+									-moz-border-radius: 100px;
+									-webkit-border-radius: 100px;
+									border-radius: 100px;
+									background: linear-gradient(to bottom left, #33ccff -1%, #66ff99 100%);
+									background-image: -moz-linear-gradient(#336666, #66ffe0);
+									line-height: 2.2em;
+									font-style: italic;
+									font-family: Georgia, Times New Roman;
+									text-align: left;
+								}
+								
+li.nav 	{
+			display: inline;
+			margin: 1% 2% 2% 3%;
+			padding: 5% 1% 2% 4%;
+			line-height: 2.3em;	
+			text-align: left;
+		}
+				
+ul.equip	{				
+				list-style-image: url("images/star_half.jpg");	
+			}				
+				
+ul.tools	{
+				list-style-type: circle;
+			}	
+			
+ul.nav	{
+			margin: 1% 1% 1% 5%;
+			padding-top: 2% 2% 1% 2%;	
+			text-align: left;
+		}	
+			
+ol	{
+		list-style-type: lower-roman;
+	}				
+				
+li	{
+		margin: 11px 0px 0px 0px;
+		margin-left: 70px;
+	}			
+
+Header	{
+			margin: 2% 8% 5% 8%;	
+			padding: 2% 2% 2% 2%;
+			background: linear-gradient(to bottom left, #99ccff 27%, #66ff99 94%);
+			-moz-border-radius: 30px;
+			-webkit-border-radius: 30px;
+			border-radius: 40px;
+			border: 2px solid #0088dd;
+		}
+		
+footer 	{
+			text-align: left;
+			padding: 3% 10% 3% 10%; 
+			margin: 2% 10% 2% 10%;
+			-moz-border-radius: 30px;
+			-webkit-border-radius: 30px;
+			border-radius: 40px;
+			border: 2px solid #0088dd;
+			background: linear-gradient(to bottom, #ccff66 0%, #ff99cc 100%);
+		}
+	
+h1 	{
+		font-family: initial;
+		border: 3px solid #0088dd; 
+		font-size:236%;
+		font-weight:bold;	
+		color:maroon;
+		text-transform: uppercase;
+		text-decoration: underline;
+		letter-spacing: 0.08em; 
+		font-style: initial;
+		line-height: 1.6em;	
+		margin:1% 0% 1% 0%;
+		padding:2% 2% 2% 2%;	
+	}	
+		
+	
+h2 	{
+		margin: 1% 1% 1% 1%;
+		padding: 1% 1% 1% 1%;
+		font-size: 1.7em;
+		font-weight:bold;
+		color:blue;
+		line-height: 2.4em;
+		font-family: "Bitstream Vera Serif Bold";
+		font-style: inherit;
+		text-transform: capitalize;
+		text-decoration: underline overline wavy magenta;
+	}
+	
+	
+p	{	
+		margin: 0% 1% 0% 1%;
+		font-family: Arial, Helvetica, Sans-serif; 
+		font-size:14pt;
+		line-height: 1.8em;
+		font-style: inherit;
+		padding: 0% 1% 0% 1%;
+	}	
+	
+p.organic	{	
+				margin: 0% 1% 0% 1%;
+				font-family: Arial, Helvetica, Sans-serif; 
+				font-size:14pt;
+				line-height: 1.8em;
+				padding: 0% 1% 0% 1%;
+				background-image: url("images/download(3).jpeg");
+				background-repeat: no-repeat;
+			}
+	
+table	{ 
+			width: 600px;
+			empty-cells: hide;
+			border-spacing: 5px 15px;
+        }
+		
+td 	{  
+		padding: 15px;
+		background-color: #e6f3ff;
+		border: 2px solid #000000;
+		text-align: center;
+		font-weight: bold;		
+	}
+	
+th	{
+		padding: 10px;
+		text-transform: uppercase;
+		letter-spacing: 0.1em;
+		font-size: 14px;
+		font-family: Arial, Helvetica, Sans-serif; 
+		font-weight: bold;
+		border: 2px solid #111111;
+		text-align: left;
+		background-color: #f1f1c1;
+	}
+	
+tr:hover, tr:focus 	{
+						background-color: #f2f2f2;	
+						border: 2px solid #b1e1e4;
+					}
+		 
+input 	{
+			font-size: 140%;
+			color: #5a5854;
+			background-color: #f2f2f2;
+			border: 2px solid #c3e6e5;
+			border-radius: 8px;
+			padding: 5px 5px 5px 40px;
+			background-repeat: no-repeat;
+			background-position: 9px 11px;
+			display: block;
+			margin: 2px 2px 2px 2px;		
+		}
+		
+input:focus, input:hover	{
+								background-color: #ffffff;
+								border: 2px solid #b1e1e4;
+							}
+							
+input[type="submit"] 	{
+							color: #444444;
+							text-shadow: 0px 1px 1px #ffffff;
+							border: 2px solid #b2b2b2;
+							background-color: #b9e4e3;
+							text-align: center;
+							font-weight: bold;
+						}
+						
+a 	{
+		cursor: move;
+	}
+	
+fieldset	{
+				width: 800px;
+				border: 2px solid #4B0082;
+				border-radius: 10px;
+				padding: 25px;
+				text-align: left;			
+			}
+			
+legend	{
+			background-color: #ffff66;
+			border: 2px solid #0088dd;
+			font-weight: bold;
+			border-radius: 10px;
+			padding: 10px 20px;
+			text-align: left;
+			text-transform: uppercase;
+		}
+
+		
+figcaption.tractor	{
+						float: right;
+						margin: 0% 10% 0% 20%;
+						padding: 0% 0% 0% 1.8%;
+					}	
+
+img.tractor	{
+				float: right;
+				width: 40%;
+				height: 30%;
+				padding: 1% 0% 0% 2%;
+				margin: 0% 0% 0% 0%;
+					
+			}
+			
+img.barrow	{
+				width: 30%;
+				height: 25%;
+				padding: 2% 1% 0% 10%; 
+				margin: 0% 1% 0% 10%;
+			}
+			
+img.wood	{
+				width: 30%;
+				height: 20%;
+				margin: 1% 5% 0% 5%;
+				padding: 1% 5% 2% 2%;
+				float:right;
+			}
+			
+figcaption.barrow	{
+						
+						margin: -4% 0% 0% 15%;
+						padding: 0% 0% 0% 3%;
+					}	
+			
+figcaption.wood	{
+					float: right;
+					margin: -1% 5% 10% 36%;
+					padding: 0% 0% 10% 2%;
+				}	
+			
+img.potato	{
+				width: 90%;
+				height: 70%;
+				padding-top: -600px;
+				padding-bottom: -600px;			
+			}
+
+figure.potato	{
+					width: 42%;
+					height: 35%;
+					margin: 1% 5% 0% 2%;
+					padding: 1% 5% 2% 2%;	
+					float:right;
+				}	
+	
+img.greens	{
+				width: 85%;
+				height: 70%;
+				padding: 1% 0% 0% 2%;
+				margin: -1% 0% 0% 0%;
+			}
+
+figure.greens	{
+					width: 42%;
+					height: 35%;
+					padding: 1% 0% 0% 3%;
+					margin: -1% 0% 0% 1%;	
+					float:right;
+				}	
+
+figcaption.greens	{
+						margin: -5% 0% 0% 3%;
+						padding: 0% 0% 0% 2%;
+					}					
+				
+img.pumpkin	{
+				width: 72%;
+				height: 45%;
+				padding: 1% 0% 0% 5%;
+				margin: -1% 0% 0% 5%;
+			}
+			
+figure.pumpkin	{
+					width: 40%;
+					height: 30%;
+					padding: 1% 0% 0% 3%;
+					margin: -1% 0% 0% 3%;	
+					float:right;
+				}	
+				
+figcaption.pumpkin	{
+						margin: -5% 0% 0% 10%;
+						padding: 0% 0% 0% 2%;
+					}									
+			
+img.radish	{
+				width: 80%;
+				height: 7em;
+				padding: 1% 0% 0% 5%;
+				margin: -1% 0% 0% 5%;
+			}
+
+figure.radish	{
+					width: 40%;
+					height: 30%;
+					padding: 1% 0% 0% 3%;
+					margin: -1% 0% 0% 3%;	
+					float:right;
+				}	
+				
+figcaption.radish	{
+						margin: -7% 0% 0% 8%;
+						padding: 0% 0% 0% 2%;
+					}								
+			
+img.basket	{
+				width: 70%;
+				height: 35%;
+				padding: 1% 0% 0% 1%;
+				margin: 0% 0% 0% 1%;
+			}	
+			
+figure.basket	{
+					width: 40%;
+					height: 30%;
+					padding: 1% 0% 0% 5%;
+					margin: 0% 0% 0% 5%;	
+					float:right;
+				}	
+				
+figcaption.basket	{
+						margin: -1% 0% 0% 0%;
+						padding: 0% 0% 0% 1%;
+					}								
+			
+img.can	{
+			width: 40%;
+			height: 30%;
+			padding-top: 30px; 
+			margin-top: 60px;
+		}	
+			
